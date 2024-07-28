@@ -39,10 +39,9 @@ const MobileNav = ({ user }: MobileNavProps) => {
               width={34}
               height={34}
               alt="INN-dhan logo"
-              draggable="false"
             />
             <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">
-              INN.Dhan
+              INN.dhan
             </h1>
           </Link>
 

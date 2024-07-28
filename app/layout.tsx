@@ -10,7 +10,7 @@ const ibmPlexSerif = IBM_Plex_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "INN Dhan", 
+  title: "INN.dhan", 
   description: "INN Dhan - Fuel Up Your Savings",
   icons: {
     icon: '/icons/logo.svg'
