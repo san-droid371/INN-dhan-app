@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
-import { set, z } from "zod";
+import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { Button } from "@/components/ui/button";
@@ -49,7 +49,7 @@ const AuthForm = ({ type }: { type: string }) => {
         });
 
         if (response) router.push("/");
-      }
+      } 
 
       setisLoading(false);
     } catch (error) {
